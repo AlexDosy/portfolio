@@ -1,0 +1,21 @@
+.projects {
+    padding: 20px;
+  }
+  
+  .projects-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .project-card a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
