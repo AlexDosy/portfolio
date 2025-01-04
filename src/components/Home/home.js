@@ -4,7 +4,7 @@ import './home.css';
 const Home = () => {
   return (
     <div className="home">
-      <h1>Hi, I'm [Your Name]</h1>
+      <h1>Hi, I'm Alex D V</h1>
       <p>Web Developer | Designer | Problem Solver</p>
       <button onClick={() => window.scrollTo(0, document.body.scrollHeight)}>
         Contact Me
