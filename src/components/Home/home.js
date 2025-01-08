@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -9,8 +10,12 @@ const Home = () => {
       <button onClick={() => window.scrollTo(0, document.body.scrollHeight)}>
         Contact Me
       </button>
-    </div>
+      <Link to="/three-scene">
+        <button >Check out this cool 3D cube below!</button>
+      </Link>
+          </div>
   );
 };
+
 
 export default Home;
