@@ -20,15 +20,9 @@ const Home = () => {
         <p className="fadeIn delay-1">Web Developer | Designer | Problem Solver</p>
 
         <div className="actions fadeIn delay-2">
-          <button
-            className="btn contact"
-            onClick={() =>
-              window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
-            }
-            aria-label="Scroll to contact"
-          >
-            Contact Me
-          </button>
+          <Link to="/contact" aria-label="Go to contact">
+            <button className="btn contact">Contact Me</button>
+          </Link>
 
           <Link to="/three-scene" aria-label="Go to 3D scene">
             <button className="btn secondary">Check out this cool 3D cube below!</button>

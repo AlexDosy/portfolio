@@ -11,18 +11,18 @@ const Contact = () => {
       <ul>
         <li>
           <strong>Email:</strong>{' '}
-          <a href="mailto:yourname@example.com">yourname@example.com</a>
+          <a href="mailto:alexdosyv210@gmail.com">alexdosyv210@gmail.com</a>
         </li>
         <li>
           <strong>LinkedIn:</strong>{' '}
-          <a href="https://www.linkedin.com/in/yourname" target="_blank" rel="noopener noreferrer">
-            linkedin.com/in/yourname
+          <a href="https://www.linkedin.com/in/alexdosy" target="_blank" rel="noopener noreferrer">
+            linkedin.com/in/alexdosy
           </a>
         </li>
         <li>
           <strong>GitHub:</strong>{' '}
-          <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
-            github.com/your-username
+          <a href="https://github.com/alexdosy" target="_blank" rel="noopener noreferrer">
+            github.com/alexdosy
           </a>
         </li>
       </ul>
