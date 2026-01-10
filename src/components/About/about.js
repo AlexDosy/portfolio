@@ -6,7 +6,7 @@ const About = () => {
     <section className="about">
       <h2>About Me</h2>
       <p>
-        Hi, I'm [Your Name], a passionate web developer with a love for building
+        A passionate web developer with a love for building
         clean, functional, and responsive web applications. I have experience
         in React, JavaScript, and modern web technologies. My goal is to
         create meaningful user experiences through my work.

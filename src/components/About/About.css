@@ -1,10 +1,13 @@
-.about {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .about h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
+.about{
+  max-width: 880px;
+  margin: 1.2rem auto;
+  padding: 20px;
+  background: var(--glass);
+  border-radius: 12px;
+  color: var(--text);
+  text-align: left;
+  box-shadow: 0 8px 30px rgba(2,6,23,0.45);
+}
+.about h2{ font-size: 1.6rem; margin:0 0 8px; }
+.about p{ color:var(--muted); line-height:1.6; margin:0 0 10px; }
   
