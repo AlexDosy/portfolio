@@ -30,7 +30,7 @@ const Home = () => {
             </Link>
 
             <Link to="/three-scene" aria-label="Go to 3D scene">
-              <button className="btn secondary">Check out this cool 3D cube below!</button>
+              <button className="btn secondary">Check out this cool 3D cube!</button>
             </Link>
           </div>
         </div>
