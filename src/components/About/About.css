@@ -7,7 +7,11 @@
   color: var(--text);
   text-align: left;
   box-shadow: 0 8px 30px rgba(2,6,23,0.45);
+  min-height: calc(100vh - 64px);
+  /* display: flex; */
+  align-items: center;
+  scroll-snap-align: start;
 }
-.about h2{ font-size: 1.6rem; margin:0 0 8px; }
+.about h2{ font-size: 1.6rem; margin:4.2rem 0 8px; }
 .about p{ color:var(--muted); line-height:1.6; margin:0 0 10px; }
   

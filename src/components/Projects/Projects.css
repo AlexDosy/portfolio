@@ -1,6 +1,6 @@
-.projects{ padding: 18px; max-width: 1100px; margin: 1rem auto; }
-.projects-list{ display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
-.project-card{ background: var(--glass); padding:16px; border-radius:10px; box-shadow: 0 8px 20px rgba(2,6,23,0.45); color:var(--text); }
+.projects{ padding: 18px; max-width: 1100px; margin: 1rem auto; min-height: calc(100vh - 64px); display:flex; align-items:center; scroll-snap-align: start; }
+.projects-list{ display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-left: auto; justify-items: end; }
+.project-card{ background: var(--glass); padding:16px; border-radius:10px; box-shadow: 0 8px 20px rgba(2,6,23,0.45); color:var(--text); text-align: right; }
 .project-card h3{ margin:0 0 6px; }
 .project-card p{ color:var(--muted); margin:0 0 10px; }
 .project-card a{ color:var(--accent); text-decoration:none; font-weight:600; }

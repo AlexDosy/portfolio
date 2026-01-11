@@ -2,7 +2,7 @@
 
 .home {
   position: relative;
-  min-height: 70vh;
+  min-height: calc(100vh - 42px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,6 +10,7 @@
   padding: 4rem 1.5rem;
   color: #fff;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  scroll-snap-align: start;
 }
 
 /* animated gradient background */
@@ -108,6 +109,10 @@
   .blob { display: none; }
   .home-content { padding: 1.5rem; }
 }
+
+/* ensure the page container snaps neatly between sections */
+main { scroll-snap-type: y mandatory; }
+
 
 /* keyframes */
 @keyframes gradientMove {

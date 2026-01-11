@@ -20,10 +20,12 @@ code {
 }
 
 html, body, #root { height: 100%; }
-body{ background: radial-gradient(ellipse at 10% 10%, rgba(124,58,237,0.06), transparent), var(--bg-body); color:var(--text); }
+body{ background: radial-gradient(ellipse at 10% 10%, rgba(124,58,237,0.06), transparent), var(--bg-body); color:var(--text); padding-top: 64px; }
 
 a{ color:var(--accent); }
 *{ box-sizing: border-box; }
 main{ min-height: calc(100vh - 120px); }
 
+/* enable smooth scrolling and snap-to-section behavior */
 html{ scroll-behavior: smooth; }
+body{ scroll-snap-type: y mandatory; scroll-padding-top: 64px; }
